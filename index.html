@@ -2,23 +2,54 @@
 <html>
     <head>
         <title>Google</title>
-        <meta content="/images/branding/googleg/1x/googleg_standard_color_128dp.png" itemprop="image">
-        <script src="https://apis.google.com/_/scs/abc-static/_/js/k=gapi.gapi.en.7RphtNcGHDQ.O/m=gapi_iframes,googleapis_client/rt=j/sv=1/d=1/ed=1/rs=AHpOoo_-zmYhp_Ir7_CCxM3l-AckMvaI9A/cb=gapi.loaded_0" nonce="E9vyh0/QWZn3SS1N3qXfdQ==" async=""></script>
+
         <style type="text/css">
             .oval {
-                width: 170px;
-                height: 30px;
+                width: 300px;
+                height: 35px;
                 border-radius: 40px;
             }
+
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                font-family:Arial, Helvetica, sans-serif;
+            }
+           
+            li {
+                float: left;
+            }
+            
+            li a {
+                display: block;
+                color: black;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+            li a:hover {
+                text-decoration: underline;
+            }
+
         </style>
     </head>
     
     <body>
+        <ul>
+            <li><a href="https://about.google">About</a></li>
+            <li><a href="https://store.google.com">Store</a></li>
+            <li style="float:right"><a href="https://mail.google.com">Gmail</a></li>
+            <li style="float:right"><a href="https://www.google.com/imghp?hl=en&ogbl">Images</a></li>
+          </ul> 
+
         <div style="position:fixed; top: 42%; left: 53%; margin-top: -100px; margin-left: -200px;">
             <img class="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" style="width: 272; height: 92">
         </div>
-
-        <div style="position:fixed; top: 55%; left: 54%;  margin-top: -100px; margin-left: -200px; border-radius: 24px; height: 44px; padding: 5px 8px 0 16px;">
+        
+        <div style="position:fixed; top: 55%; left: 51.5%;  margin-top: -100px; margin-left: -200px; border-radius: 24px; height: 44px; padding: 5px 8px 0 16px;">
             <input class="oval" type="text" placeholder="Search.." name="search">
         </div>
 
